@@ -1,0 +1,38 @@
+name: Build dictionaries
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: Fetch fresh data from VNDB before building
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test
+        run: python -m unittest discover -s tests -v
+      - name: Refresh VNDB snapshot (manual only)
+        if: github.event_name == 'workflow_dispatch' && inputs.refresh
+        run: python -m vndb_names fetch
+      - name: Build offline
+        run: python -m vndb_names build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vndb-handheld-names
+          path: |
+            dist/
+            data/snapshot.json
+          if-no-files-found: error
