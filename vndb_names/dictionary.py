@@ -75,6 +75,14 @@ def qualifying_games(snapshot: dict[str, Any]) -> dict[str, dict[str, Any]]:
     return dict(sorted(games.items(), key=lambda pair: _id_key(pair[0])))
 
 
+def _searchable_part(part: str) -> bool:
+    """A name part of one or two kana is no name to look up: such parts are the
+    particles of foreign names (デ and ラ in ファナ=デ・ラ・…, リ in コーネリア・リ・…)
+    and honorifics (さん in 村上 さん), and they match ordinary words (で, だ, する)."""
+    compact = unicodedata.normalize("NFKC", part)
+    return len(compact) > 2 or not _KANA.fullmatch(compact)
+
+
 def name_variants(name: str) -> list[str]:
     """Keep the source name, its separator-free form, and Japanese name parts."""
     source = " ".join(name.split())
@@ -86,7 +94,7 @@ def name_variants(name: str) -> list[str]:
     variants = set()
     for spelling in (source, normalized):
         variants.update((spelling, _SEPARATORS.sub("", spelling)))
-        variants.update(_SEPARATORS.split(spelling))
+        variants.update(filter(_searchable_part, _SEPARATORS.split(spelling)))
     return sorted(v for v in variants if v and _JAPANESE.search(unicodedata.normalize("NFKC", v)))
 
 

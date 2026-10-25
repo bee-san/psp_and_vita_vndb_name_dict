@@ -10,9 +10,9 @@ Snapshot cutoff: **22 October 2026**.
 
 | Dictionary | VNs | Characters | Searchable entries | ZIP size |
 | --- | ---: | ---: | ---: | ---: |
-| [PSP + PS Vita](https://github.com/bee-san/psp_and_vita_vndb_name_dict/raw/refs/heads/main/dist/VNDB-Names-PSP-PSVita.zip) | 1,202 | 12,151 | 30,927 | 1.54 MB |
-| [PSP](https://github.com/bee-san/psp_and_vita_vndb_name_dict/raw/refs/heads/main/dist/VNDB-Names-PSP.zip) | 751 | 7,218 | 19,409 | 0.88 MB |
-| [PS Vita](https://github.com/bee-san/psp_and_vita_vndb_name_dict/raw/refs/heads/main/dist/VNDB-Names-PSVita.zip) | 618 | 7,136 | 19,242 | 0.83 MB |
+| [PSP + PS Vita](https://github.com/bee-san/psp_and_vita_vndb_name_dict/raw/refs/heads/main/dist/VNDB-Names-PSP-PSVita.zip) | 1,202 | 12,151 | 30,713 | 1.51 MB |
+| [PSP](https://github.com/bee-san/psp_and_vita_vndb_name_dict/raw/refs/heads/main/dist/VNDB-Names-PSP.zip) | 751 | 7,218 | 19,258 | 0.87 MB |
+| [PS Vita](https://github.com/bee-san/psp_and_vita_vndb_name_dict/raw/refs/heads/main/dist/VNDB-Names-PSVita.zip) | 618 | 7,136 | 19,092 | 0.82 MB |
 
 ## Install
 
@@ -22,7 +22,9 @@ Leave the ZIP compressed. Alternatively, import `VNDB-Names-PSP.zip` or
 or the individual platform dictionaries to avoid duplicate results.
 
 Full names, separator-free names, family/given-name parts, and Japanese aliases
-are searchable. Definitions show the full original/romanized character name,
+are searchable. A part of one or two kana is not: those are the particles of
+foreign names (the デ and ラ of ファナ=デ・ラ・…) and honorifics (村上 さん), which
+would otherwise match ordinary words such as で and だ. Definitions show the full original/romanized character name,
 source game, handheld platform, and VNDB character link. Distinct characters
 sharing a name retain separate definitions. No pictures or biographies are
 included.
