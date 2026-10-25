@@ -29,6 +29,24 @@ source game, handheld platform, and VNDB character link. Distinct characters
 sharing a name retain separate definitions. No pictures or biographies are
 included.
 
+## Per-game names (for Rubi)
+
+`dist/VNDB-Names-Games.zip` holds one name list per game, keyed by the title ID a console reports:
+a Vita game's (`PCSG00415`) or a PSP disc's (`ULJM05338`). An app that knows the running game can
+show its characters first: in CLANNAD, 渚 is Furukawa Nagisa, not a beach. It is not a Yomitan
+dictionary: `games.json` lists each game set's VNDB IDs, title, title IDs and Yomitan term rows.
+
+- IDs come from VNDB's catalog numbers (a PSP UMD's product code is its disc ID) and PlayStation
+  Store links, and from [Vita3K's compatibility list](https://github.com/Vita3K/compatibility),
+  whose issues pair a Vita title ID with its game: an ID is taken when the name matches exactly
+  one qualifying Vita game's VNDB titles, and never against an ID VNDB gives another game. VNDB
+  records a Vita card's box code (VLJM-35xxx), not its title ID, so most Vita retail games need it.
+- A bundle's ID names all its games. Within an entry, a character whose own name has the
+  spelling comes before one known by it as an alias, then main characters before side ones.
+- Games with no ID have no per-game list. Coverage is in `dist/build-summary.json` (`per_game`).
+
+`python -m vndb_names fetch-ids` refreshes `data/title-ids.json`; `build` uses it when present.
+
 ## Scope
 
 The build fetches current data from VNDB's public
