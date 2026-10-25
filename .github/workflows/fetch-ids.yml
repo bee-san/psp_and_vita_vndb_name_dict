@@ -1,0 +1,30 @@
+name: Fetch title IDs (experiment)
+
+on:
+  push:
+    branches: [experiment/title-id-coverage]
+    paths: [vndb_names/games.py, .github/workflows/fetch-ids.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch title IDs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m vndb_names fetch-ids
+      - name: Commit data/title-ids.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/title-ids.json
+          git commit -m "Fetch title IDs" || exit 0
+          git push origin HEAD:${{ github.ref_name }}

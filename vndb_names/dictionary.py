@@ -75,6 +75,14 @@ def qualifying_games(snapshot: dict[str, Any]) -> dict[str, dict[str, Any]]:
     return dict(sorted(games.items(), key=lambda pair: _id_key(pair[0])))
 
 
+def _searchable_part(part: str) -> bool:
+    """A name part of one or two kana is no name to look up: such parts are the
+    particles of foreign names (デ and ラ in ファナ=デ・ラ・…, リ in コーネリア・リ・…)
+    and honorifics (さん in 村上 さん), and they match ordinary words (で, だ, する)."""
+    compact = unicodedata.normalize("NFKC", part)
+    return len(compact) > 2 or not _KANA.fullmatch(compact)
+
+
 def name_variants(name: str) -> list[str]:
     """Keep the source name, its separator-free form, and Japanese name parts."""
     source = " ".join(name.split())
@@ -86,7 +94,7 @@ def name_variants(name: str) -> list[str]:
     variants = set()
     for spelling in (source, normalized):
         variants.update((spelling, _SEPARATORS.sub("", spelling)))
-        variants.update(_SEPARATORS.split(spelling))
+        variants.update(filter(_searchable_part, _SEPARATORS.split(spelling)))
     return sorted(v for v in variants if v and _JAPANESE.search(unicodedata.normalize("NFKC", v)))
 
 
@@ -171,8 +179,9 @@ def _write_zip(path: Path, index: dict[str, Any], terms: list[list[Any]]) -> Non
             archive.writestr(info, _json_bytes(value), compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
 
 
-def build(snapshot: dict[str, Any], output_dir: str | Path) -> dict[str, Any]:
-    """Write three importable dictionaries, release evidence and build counts."""
+def build(snapshot: dict[str, Any], output_dir: str | Path, title_ids: dict | None = None) -> dict[str, Any]:
+    """Write three importable dictionaries, release evidence and build counts; with title_ids
+    (data/title-ids.json), also the per-game names (vndb_names/games.py)."""
     if snapshot.get("schema_version") != 1:
         raise ValueError("Unsupported snapshot schema_version; expected 1")
     games = qualifying_games(snapshot)
@@ -208,6 +217,17 @@ def build(snapshot: dict[str, Any], output_dir: str | Path) -> dict[str, Any]:
             "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
             "size_bytes": path.stat().st_size,
         })
+    if title_ids is not None:
+        from .games import build_games
+        filename = "VNDB-Names-Games.zip"
+        index = {"title": "VNDB Names — PSP & PS Vita, per game", "format": "per-game-1",
+                 "revision": snapshot["as_of"], "title_ids_fetched_at": title_ids.get("fetched_at"),
+                 "attribution": "VNDB contributors (https://vndb.org/), ODbL 1.0 / DbCL 1.0. Vita title IDs "
+                                "also from Vita3K's compatibility list (https://github.com/Vita3K/compatibility)."}
+        counts = build_games(snapshot, games, title_ids, output / filename, index)
+        summary["per_game"] = {"file": filename, **counts,
+                               "sha256": hashlib.sha256((output / filename).read_bytes()).hexdigest(),
+                               "size_bytes": (output / filename).stat().st_size}
     (output / "games.json").write_bytes(_json_bytes(list(games.values())))
     (output / "build-summary.json").write_bytes(_json_bytes(summary))
     return summary
