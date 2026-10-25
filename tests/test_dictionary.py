@@ -107,6 +107,16 @@ class NameTests(unittest.TestCase):
         self.assertEqual(name_variants("アリス・エクレール"), ["アリス", "アリスエクレール", "アリス・エクレール", "エクレール"])
         self.assertEqual(name_variants("Alice"), [])
 
+    def test_one_or_two_kana_parts_are_not_searchable(self):
+        self.assertEqual(name_variants("ファナ=デ・ラ・ウィーヴェル"),
+                         ["ウィーヴェル", "ファナ", "ファナ=デ・ラ・ウィーヴェル", "ファナデラウィーヴェル"])
+        self.assertEqual(name_variants("村上 さん"), ["村上", "村上 さん", "村上さん"])
+        self.assertEqual(name_variants("氷川 マイ"), ["氷川", "氷川 マイ", "氷川マイ"])
+        # A one-kanji part and a whole short kana name stay.
+        self.assertIn("渚", name_variants("古河 渚"))
+        self.assertEqual(name_variants("ユイ"), ["ユイ"])
+        self.assertEqual(name_variants("ﾕｲ"), ["ユイ", "ﾕｲ"])
+
     def test_source_glyphs_and_halfwidth_kana_survive_normalization(self):
         variants = name_variants("神崎 ｱﾘｽ")
         self.assertIn("神崎 ｱﾘｽ", variants)
