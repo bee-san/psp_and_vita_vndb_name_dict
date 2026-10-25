@@ -31,9 +31,14 @@ PSP_ID = re.compile(r"^(?:U[LC][A-Z]{2}|NP[UEJHAK][HGZ])\d{5}$")
 ROMAN = {chr(0x2160 + i): r for i, r in enumerate("i ii iii iv v vi vii viii ix x xi xii".split())}
 ROMAN.update({chr(0x2170 + i): r for i, r in enumerate("i ii iii iv v vi vii viii ix x xi xii".split())})
 HALFWIDTH_KANA = re.compile(r"[｡-ﾟ]+")
-# Edition words a console title may add or drop (tested separately: "suffix" metrics).
-SUFFIXES = ("forplaystationvita", "playstationvitathebest", "psvitathebest", "forpsvita", "thebest",
-            "playstationvita", "psvita", "vita")
+# Edition words a release title adds and a console title leaves out (normalized; stripped from the end,
+# repeatedly): VNDB's "... Download Edition", "... パッケージ版".
+SUFFIXES = ("firstpresslimitededition", "downloadedition", "packageedition", "limitededition", "regularedition",
+            "specialedition", "deluxeedition", "standardedition", "premiumedition", "valueedition", "firstpressedition",
+            "normaledition", "dledition", "ダウンロード版", "パッケージ版", "初回限定版", "完全生産限定版", "限定版",
+            "通常版", "特装版", "豪華版", "廉価版", "dl版", "ベスト版", "playstationvitathebest", "psvitathebest",
+            "pspthebest", "thebest", "bestprice", "forplaystationvita", "forpsvita", "forpsp")
+AQUA_PRICE = re.compile(r"aquaprice\d+$")
 
 
 def light_norm(text: str) -> str:
@@ -59,9 +64,15 @@ def light_norm(text: str) -> str:
 
 
 def strip_suffix(norm: str) -> str:
-    for s in SUFFIXES:
-        if norm.endswith(s) and len(norm) > len(s) + 2:
-            return norm[: -len(s)]
+    changed = True
+    while changed:
+        changed = False
+        m = AQUA_PRICE.search(norm)
+        if m and m.start() > 2:
+            norm, changed = norm[: m.start()], True
+        for s in SUFFIXES:
+            if norm.endswith(s) and len(norm) > len(s) + 2:
+                norm, changed = norm[: -len(s)], True
     return norm
 
 
@@ -221,9 +232,12 @@ def main() -> None:
         "clannad_v4": {"vndb_ids": sorted(ids["psv"].get("v4", ())), "vita3k_ids": sorted(enriched.get("v4", ())),
                        "vita3k_names": [e["name"] for t in ("PCSG00415",) for e in v3k_by_id.get(t, [])]},
     }
+    unmatched = sorted((v for v in psv if not (ids["psv"].get(v) or enriched.get(v))), key=lambda v: -chars[v])
+    unmatched_sample = [{"vn": v, "title": qualifying[v]["title"], "characters": chars[v],
+                         "titles": sorted({strip_suffix(t) for t in titles["psv"][v]})[:5]} for v in unmatched[:60]]
     out = root / "reports"
     out.mkdir(exist_ok=True)
-    detail = {"summary": summary, "misses": misses, "conflicts": conflicts[:80],
+    detail = {"summary": summary, "misses": misses, "unmatched_vita": unmatched_sample, "conflicts": conflicts[:80],
               "ambiguous": dict(sorted(ambiguous.items())[:200]),
               "vita": {v: {"title": qualifying[v]["title"], "characters": chars[v],
                            "vndb_ids": sorted(ids["psv"].get(v, ())), "vita3k_ids": sorted(enriched.get(v, ()))}
@@ -234,6 +248,9 @@ def main() -> None:
     lines = ["# Game matching report", "", "```json", json.dumps(summary, ensure_ascii=False, indent=1), "```", "",
              "## Title misses (Vita3K name vs VNDB titles, normalized)", ""]
     lines += [f"- {m['vn']} {m['tid']}: `{m['vita3k']}` vs {', '.join('`'+t+'`' for t in m['vndb'])}" for m in misses]
+    lines += ["", "## Vita games with no title ID (most characters first)", ""]
+    lines += [f"- {u['vn']} {u['title']} ({u['characters']} characters): {', '.join('`'+t+'`' for t in u['titles'])}"
+              for u in unmatched_sample]
     lines += ["", "## Conflicts", ""] + [f"- {c}" for c in conflicts[:40]]
     (out / "game-match.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False, indent=1))
