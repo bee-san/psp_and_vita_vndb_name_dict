@@ -29,23 +29,23 @@
    "characters": 4169
   },
   "vita_with_vita3k_title_match": {
-   "games": 340,
-   "characters": 5342
+   "games": 391,
+   "characters": 6203
   },
   "vita_with_either": {
-   "games": 456,
-   "characters": 7037
+   "games": 476,
+   "characters": 7412
   },
   "vita_games_listed_in_vita3k": {
-   "games": 455,
-   "characters": 7026
+   "games": 475,
+   "characters": 7401
   },
   "title_check_pairs": 325,
   "title_check_exact": 200,
-  "title_check_with_suffixes": 200,
-  "title_check_unique_game": 188,
+  "title_check_with_suffixes": 258,
+  "title_check_unique_game": 222,
   "enrichment_conflicts": 0,
-  "ambiguous_vita_titles": 257,
+  "ambiguous_vita_titles": 308,
   "clannad_v4": {
    "vndb_ids": [],
    "vita3k_ids": [
@@ -71,32 +71,6 @@
    ]
   },
   {
-   "vn": "v5127",
-   "tid": "PCSG00274",
-   "vita3k": "Chou no Doku Hana no Kusari Taishou Tsuyakoi Ibun",
-   "vndb": [
-    "butterflyspoisonbloodchains",
-    "choudoku",
-    "chounodokuhananokusari",
-    "chounodokuhananokusaritaishoutsuyakoiibundownloadedition",
-    "chounodokuhananokusaritaishoutsuyakoiibunpackageedition",
-    "diezhiduhuazhisuo"
-   ]
-  },
-  {
-   "vn": "v16493",
-   "tid": "PCSG00249",
-   "vita3k": "White Album 2: Shiawase no Mukougawa",
-   "vndb": [
-    "baisexiangbu2miniafterstory",
-    "wa2mas",
-    "whitealbum2miniafterstory",
-    "whitealbum2shiawasenomukougawaaquaprice2800",
-    "whitealbum2shiawasenomukougawaasedition",
-    "whitealbum2shiawasenomukougawaaslimitededition"
-   ]
-  },
-  {
    "vn": "v1715",
    "tid": "PCSG00811",
    "vita3k": "Hakuoki: Edo Blossoms",
@@ -107,19 +81,6 @@
     "baoyingguizhengaihuazhizhang",
     "boyingguizhengaifenghuazhuan",
     "hakuokidemonofthefleetingblossom"
-   ]
-  },
-  {
-   "vn": "v7803",
-   "tid": "PCSG00203",
-   "vita3k": "AMNESIA V Edition",
-   "vndb": [
-    "amnesia",
-    "amnesiamemories",
-    "amnesiamemoriesdownloadedition",
-    "amnesiashiyizheng",
-    "amnesiaveditiondownloadedition",
-    "amnesiaveditionpackageedition"
    ]
   },
   {
@@ -201,71 +162,6 @@
    ]
   },
   {
-   "vn": "v853",
-   "tid": "PCSG00481",
-   "vita3k": "Shinsouban Crimson Empire ~Circumstances to Serve a Noble~",
-   "vndb": [
-    "crimsonempirecircumstancestoserveanoble",
-    "feihongdiguo",
-    "shinsoubancrimsonempirecircumstancestoserveanobledeluxeedition",
-    "shinsoubancrimsonempirecircumstancestoserveanobledownloadedition",
-    "shinsoubancrimsonempirecircumstancestoserveanobleregularedition",
-    "クリムゾンエンパイアcircumstancestoserveanoble"
-   ]
-  },
-  {
-   "vn": "v8591",
-   "tid": "PCSG00403",
-   "vita3k": "AMNESIA LATER×CROWD V Edition",
-   "vndb": [
-    "amnesialater",
-    "amnesialatercrowdveditionダウンロード版",
-    "amnesialatercrowdveditionパッケージ版",
-    "amnesialaterxcrowdveditiondownloadedition",
-    "amnesialaterxcrowdveditionpackageedition",
-    "shiyizhengamnesialater"
-   ]
-  },
-  {
-   "vn": "v11186",
-   "tid": "PCSG00403",
-   "vita3k": "AMNESIA LATER×CROWD V Edition",
-   "vndb": [
-    "amnesiacrowd",
-    "amnesialatercrowdveditionダウンロード版",
-    "amnesialatercrowdveditionパッケージ版",
-    "amnesialaterxcrowdveditiondownloadedition",
-    "amnesialaterxcrowdveditionpackageedition",
-    "shiyizhengamnesiacrowd"
-   ]
-  },
-  {
-   "vn": "v6714",
-   "tid": "PCSG00426",
-   "vita3k": "Ren’ai 0 Kilometer V",
-   "vndb": [
-    "lianai0gongli",
-    "renai0kilometer",
-    "renai0kilometervdownloadedition",
-    "renai0kilometervpackageedition",
-    "renzero",
-    "zerokiro"
-   ]
-  },
-  {
-   "vn": "v11472",
-   "tid": "PCSG00553",
-   "vita3k": "Ken Ga Kimi For V",
-   "vndb": [
-    "jianweijunwu",
-    "kengakimi",
-    "kengakimiforvdownloadedition",
-    "kengakimiforvlimitededition",
-    "kengakimiforvregularedition",
-    "kengakimimomoyotsuzuritwinpack"
-   ]
-  },
-  {
    "vn": "v12751",
    "tid": "PCSG00602",
    "vita3k": "Incognito, Falling in Love ― Snow Moon Flower Love Emaki ―",
@@ -289,32 +185,6 @@
     "kokuchounopsychedelica",
     "kokuchounopsychedelicadownloadedition",
     "kokuchounopsychedelicalimitededition"
-   ]
-  },
-  {
-   "vn": "v7634",
-   "tid": "PCSG00470",
-   "vita3k": "Hanayaka Nari, Wa ga Ichizoku: Modern Nostalgie",
-   "vndb": [
-    "hanayakanariwagaichizoku",
-    "hanayakanariwagaichizokumodernnostalgiedownloadedition",
-    "hanayakanariwagaichizokumodernnostalgieregularedition",
-    "huacaihuanghuangwuzhiyizu",
-    "華ヤカ哉我ガ一族",
-    "華ヤカ哉我ガ一族モダンノスタルジィダウンロード版"
-   ]
-  },
-  {
-   "vn": "v6723",
-   "tid": "PCSG00469",
-   "vita3k": "Clock Zero ~Shuuen no Ichibyou~ ExTime",
-   "vndb": [
-    "clockzeroshuuennoichibyou",
-    "clockzeroshuuennoichibyoudevote",
-    "clockzeroshuuennoichibyouextimedownloadedition",
-    "clockzeroshuuennoichibyouextimelimitededition",
-    "clockzeroshuuennoichibyouextimeregularedition",
-    "clockzerozhongyanzhiyimiao"
    ]
   },
   {
@@ -357,58 +227,6 @@
    ]
   },
   {
-   "vn": "v11300",
-   "tid": "PCSG00506",
-   "vita3k": "Hitotsu Tobashi Ren’ai V",
-   "vndb": [
-    "hitoren",
-    "hitotsutobashirenai",
-    "hitotsutobashirenaivdownloadedition",
-    "hitotsutobashirenaivlimitededition",
-    "hitotsutobashirenaivregularedition",
-    "jianjiezhilian"
-   ]
-  },
-  {
-   "vn": "v7833",
-   "tid": "PCSG00496",
-   "vita3k": "OZMAFIA!! -vivace",
-   "vndb": [
-    "ozmafia",
-    "ozmafiavivacedownloadedition",
-    "ozmafiavivacelimitededition",
-    "ozmafiavivaceregularedition",
-    "ozmafiavivacetrialedition",
-    "ozmafiavivaceダウンロード版"
-   ]
-  },
-  {
-   "vn": "v4671",
-   "tid": "PCSG00526",
-   "vita3k": "Shinsouban Okashi na Shima no Peter Pan ~Sweet Never Land~",
-   "vndb": [
-    "okashinashimanopeterpansweetneverland",
-    "peterpanofthesweetisland",
-    "shinsoubanokashinashimanopeterpansweetneverlanddeluxeedition",
-    "shinsoubanokashinashimanopeterpansweetneverlanddownloadedition",
-    "shinsoubanokashinashimanopeterpansweetneverlandregularedition",
-    "お菓子な島のピーターパンsweetneverland"
-   ]
-  },
-  {
-   "vn": "v1316",
-   "tid": "PCSG00580",
-   "vita3k": "Shinsou-ban Mahou-tsukai to Goshujin-sama",
-   "vndb": [
-    "mahoutsukaitogoshujinsamawizardandthemaster",
-    "shinsoubanmahoutsukaitogoshujinsamadeluxeedition",
-    "shinsoubanmahoutsukaitogoshujinsamadownloadedition",
-    "shinsoubanmahoutsukaitogoshujinsamaregularedition",
-    "新装版魔法使いとご主人様ダウンロード版",
-    "新装版魔法使いとご主人様豪華版"
-   ]
-  },
-  {
    "vn": "v16295",
    "tid": "PCSG00640",
    "vita3k": "SA7 - Silent Ability Seven",
@@ -432,97 +250,6 @@
     "chusingura461vdownloadedition",
     "chusingura461vpackageedition",
     "chuushingura461"
-   ]
-  },
-  {
-   "vn": "v10950",
-   "tid": "PCSG00574",
-   "vita3k": "School Wars ~Zenkan Pack Honpen & Sotsugyou Sensen~",
-   "vndb": [
-    "schoolwars",
-    "schoolwarszenkanpackhonpensotsugyousensendeluxeedition",
-    "schoolwarszenkanpackhonpensotsugyousensendownloadedition",
-    "schoolwarszenkanpackhonpensotsugyousensenregularedition",
-    "スクールウォーズ",
-    "スクールウォーズ全巻パック本編卒業戦線ダウンロード版"
-   ]
-  },
-  {
-   "vn": "v12019",
-   "tid": "PCSG00574",
-   "vita3k": "School Wars ~Zenkan Pack Honpen & Sotsugyou Sensen~",
-   "vndb": [
-    "schoolwarsgraduationwarfront",
-    "schoolwarssotsugyousensen",
-    "schoolwarszenkanpackhonpensotsugyousensendeluxeedition",
-    "schoolwarszenkanpackhonpensotsugyousensendownloadedition",
-    "schoolwarszenkanpackhonpensotsugyousensenregularedition",
-    "スクールウォーズ全巻パック本編卒業戦線ダウンロード版"
-   ]
-  },
-  {
-   "vn": "v8043",
-   "tid": "PCSG00561",
-   "vita3k": "12 Ji no Kane to Cinderella ～Cinderella Series Triple Zenkan Pack～",
-   "vndb": [
-    "12jinokanetocinderellacinderellaseriestriplezenkanpackdeluxeedition",
-    "12jinokanetocinderellacinderellaseriestriplezenkanpackdownloadedition",
-    "12jinokanetocinderellacinderellaseriestriplezenkanpackregularedition",
-    "12jinokanetocinderellahalloweenwedding",
-    "12時の鐘とシンデレラhalloweenwedding",
-    "12時の鐘とシンデレラシンデレラシリーズトリプル全巻パックダウンロード版"
-   ]
-  },
-  {
-   "vn": "v10105",
-   "tid": "PCSG00561",
-   "vita3k": "12 Ji no Kane to Cinderella ～Cinderella Series Triple Zenkan Pack～",
-   "vndb": [
-    "12jinokanetocinderellacinderellaseriestriplezenkanpackdeluxeedition",
-    "12jinokanetocinderellacinderellaseriestriplezenkanpackdownloadedition",
-    "12jinokanetocinderellacinderellaseriestriplezenkanpackregularedition",
-    "12時の鐘とシンデレラシンデレラシリーズトリプル全巻パックダウンロード版",
-    "12時の鐘とシンデレラシンデレラシリーズトリプル全巻パック豪華版",
-    "12時の鐘とシンデレラシンデレラシリーズトリプル全巻パック通常版"
-   ]
-  },
-  {
-   "vn": "v11879",
-   "tid": "PCSG00561",
-   "vita3k": "12 Ji no Kane to Cinderella ～Cinderella Series Triple Zenkan Pack～",
-   "vndb": [
-    "0jinokanetocinderellahalloweenwedding",
-    "0時の鐘とシンデレラhalloweenwedding",
-    "12jinokanetocinderellacinderellaseriestriplezenkanpackdeluxeedition",
-    "12jinokanetocinderellacinderellaseriestriplezenkanpackdownloadedition",
-    "12jinokanetocinderellacinderellaseriestriplezenkanpackregularedition",
-    "12時の鐘とシンデレラシンデレラシリーズトリプル全巻パックダウンロード版"
-   ]
-  },
-  {
-   "vn": "v9915",
-   "tid": "PCSG00576",
-   "vita3k": "Hanayaka Nari, Wa ga Ichizoku: Gentou Nostalgie",
-   "vndb": [
-    "hanayakanariwagaichizokugentounostalgiedownloadedition",
-    "hanayakanariwagaichizokugentounostalgieregularedition",
-    "hanayakanariwagaichizokukinemamosaic",
-    "huacaihuanghuangwuzhiyizudengyingwanhuajing",
-    "華ヤカ哉我ガ一族キネマモザイク",
-    "華ヤカ哉我ガ一族幻燈ノスタルジィダウンロード版"
-   ]
-  },
-  {
-   "vn": "v12188",
-   "tid": "PCSG00576",
-   "vita3k": "Hanayaka Nari, Wa ga Ichizoku: Gentou Nostalgie",
-   "vndb": [
-    "hanayakanariwagaichizokugentounostalgiedownloadedition",
-    "hanayakanariwagaichizokugentounostalgieregularedition",
-    "hanayakanariwagaichizokutasogarepolarstar",
-    "huacaihuanghuangwuzhiyizuhuanghunbeijixing",
-    "華ヤカ哉我ガ一族幻燈ノスタルジィダウンロード版",
-    "華ヤカ哉我ガ一族幻燈ノスタルジィ通常版"
    ]
   },
   {
@@ -562,19 +289,6 @@
     "moujuutsukaitooujisamasnowbride",
     "猛獣使いと王子様flowersnowダウンロード版",
     "猛獣使いと王子様flowersnowパッケージ版"
-   ]
-  },
-  {
-   "vn": "v14759",
-   "tid": "PCSG00666",
-   "vita3k": "Ayakashi Gohan: Oomori!",
-   "vndb": [
-    "ayakashigohan",
-    "ayakashigohanoomoridownloadedition",
-    "ayakashigohanoomorifirstpresslimitededition",
-    "ayakashigohanoomoriregularedition",
-    "yaoguaifan",
-    "yaoguaimifan"
    ]
   },
   {
@@ -643,32 +357,6 @@
    ]
   },
   {
-   "vn": "v13090",
-   "tid": "PCSG00654",
-   "vita3k": "Gakuen K -Wonderful School Days- V Edition",
-   "vndb": [
-    "gakuenkwonderfulschooldays",
-    "gakuenkwonderfulschooldaysveditiondownloadedition",
-    "gakuenkwonderfulschooldaysveditionlimitededition",
-    "gakuenkwonderfulschooldaysveditionregularedition",
-    "keineweiteregeschichte",
-    "kproject"
-   ]
-  },
-  {
-   "vn": "v13090",
-   "tid": "PCSG00654",
-   "vita3k": "Gakuen K - Wonderful School Days V Edition",
-   "vndb": [
-    "gakuenkwonderfulschooldays",
-    "gakuenkwonderfulschooldaysveditiondownloadedition",
-    "gakuenkwonderfulschooldaysveditionlimitededition",
-    "gakuenkwonderfulschooldaysveditionregularedition",
-    "keineweiteregeschichte",
-    "kproject"
-   ]
-  },
-  {
    "vn": "v10289",
    "tid": "PCSG00635",
    "vita3k": "Jyuzaengi: Engetsu Sangokuden 1+2",
@@ -731,32 +419,6 @@
     "kenkabanchouotomeregularedition",
     "xuanhuafanzhangyinu",
     "喧嘩番長乙女"
-   ]
-  },
-  {
-   "vn": "v13325",
-   "tid": "PCSG00716",
-   "vita3k": "Clover Day's ～Making for Happiness.～",
-   "vndb": [
-    "cld",
-    "cloverdays",
-    "cloverdaysmakingforhappinessdownloadedition",
-    "cloverdaysmakingforhappinessfirstpresslimitededition",
-    "cloverdaysmakingforhappinessregularedition",
-    "cloverdaysmakingforhappinessダウンロード版"
-   ]
-  },
-  {
-   "vn": "v8203",
-   "tid": "PCSG00751",
-   "vita3k": "Arcana Famiglia -La storia della Arcana Famiglia- Ancora",
-   "vndb": [
-    "arcanafamiglia",
-    "arcanafamiglialastoriadellaarcanafamigliaancoradownloadedition",
-    "arcanafamiglialastoriadellaarcanafamigliaancorapackageedition",
-    "lastoriadellaarcanafamiglia",
-    "shenglingjiazu",
-    "アルカナファミリア"
    ]
   },
   {
@@ -836,10 +498,1040 @@
     "leboucemissairedelareine",
     "薔薇に隠されしヴェリテ"
    ]
+  },
+  {
+   "vn": "v18164",
+   "tid": "PCSG00708",
+   "vita3k": "Truth Hidden Under The Rose",
+   "vndb": [
+    "baranikakusareshiverite",
+    "baranikakusareshiveritedownloadedition",
+    "baranikakusareshiveritelimitededition",
+    "baranikakusareshiveriteregularedition",
+    "leboucemissairedelareine",
+    "薔薇に隠されしヴェリテ"
+   ]
+  },
+  {
+   "vn": "v13833",
+   "tid": "PCSG00768",
+   "vita3k": "Walpurgis no Uta",
+   "vndb": [
+    "shengnvzhishi",
+    "walpurgisnoutawalpurgisgedichte",
+    "walpurgisnoutawalpurgisgedichtedownloadedition",
+    "walpurgisnoutawalpurgisgedichtepackageedition",
+    "ヴァルプルガの詩",
+    "ヴァルプルガの詩ダウンロード版"
+   ]
+  },
+  {
+   "vn": "v18303",
+   "tid": "PCSG00833",
+   "vita3k": "NORN9 ACT TUNE",
+   "vndb": [
+    "norn9nornnonetteacttune",
+    "norn9nornnonetteacttunedownloadedition",
+    "norn9nornnonetteacttunelimitededition",
+    "norn9nornnonetteacttuneregularedition",
+    "ノルンノネットアクトチューン",
+    "ノルンノネットアクトチューンdl版"
+   ]
+  },
+  {
+   "vn": "v12438",
+   "tid": "PCSG00785",
+   "vita3k": "Sangoku Rensenki: Otome no Heihou! Omoide Gaeshi - CS Edition",
+   "vndb": [
+    "sangokurensenkiomoidegaeshicseditiondownloadedition",
+    "sangokurensenkiomoidegaeshicseditionpackageedition",
+    "sangokurensenkiotomenoheihouomoidegaeshi",
+    "sanguolianzhanjishaonudebingfazhuiyihuixiang",
+    "三国恋战记少女的兵法追忆回想",
+    "三国恋戦記オトメの兵法思いでがえし"
+   ]
+  },
+  {
+   "vn": "v18642",
+   "tid": "PCSG00152",
+   "vita3k": "Tsukiei Academy -kou",
+   "vndb": [
+    "getsueigakuenkou",
+    "getsueigakuenkoulimitedbox",
+    "月英学園kou",
+    "月英学園koulimitedbox"
+   ]
+  },
+  {
+   "vn": "v18644",
+   "tid": "PCSG01238",
+   "vita3k": "Root Letter Last Answer",
+   "vndb": [
+    "letter",
+    "letterfanggenshujian",
+    "letterlastanswerdownloadedition",
+    "letterlastanswerregularedition",
+    "letterrootletter",
+    "letterrootletterdownloadedition"
+   ]
+  },
+  {
+   "vn": "v10051",
+   "tid": "PCSG00850",
+   "vita3k": "Chou Ezaru wa Akai Hana: Koi wa Tsuki ni Shirube Kareru",
+   "vndb": [
+    "benibana",
+    "bukeyuyuedehonghua",
+    "koezaruwaakaihana",
+    "koezaruwaakaihanakoiwatsukinimichibikareru",
+    "koezaruwaakaihanakoiwatsukinimichibikarerudownloadedition",
+    "koezaruwaakaihanakoiwatsukinimichibikarerutrialedition"
+   ]
+  },
+  {
+   "vn": "v18838",
+   "tid": "PCSG00852",
+   "vita3k": "Maji-Kyun! Renaissance",
+   "vndb": [
+    "magickyunrenaissance",
+    "magickyunrenaissancedownloadedition",
+    "magickyunrenaissancefirstpresslimitededitionkyunkyunbox",
+    "magickyunrenaissanceregularedition",
+    "マジきゅんっルネッサンス",
+    "マジきゅんっルネッサンスdl版"
+   ]
+  },
+  {
+   "vn": "v19119",
+   "tid": "PCSB01030",
+   "vita3k": "Fate/Extella: The Umbral Star",
+   "vndb": [
+    "fateextella",
+    "fateextellabestcollection",
+    "fateextelladl",
+    "fateextelladownloadedition",
+    "fateextellaregaliabox",
+    "fateextellaregularedition"
+   ]
+  },
+  {
+   "vn": "v12159",
+   "tid": "PCSG00896",
+   "vita3k": "Meiji Toukyou Renka: Full Moon",
+   "vndb": [
+    "meijitokyorenka",
+    "meijitokyorenkafullmoondownloadedition",
+    "meijitokyorenkafullmoonfirstpresslimitedakatsukinorokumeikanbox",
+    "meijitokyorenkafullmoonregularedition",
+    "meikoi",
+    "mingzhidongjinglianyu"
+   ]
+  },
+  {
+   "vn": "v19298",
+   "tid": "PCSG00909",
+   "vita3k": "Yunohana SpRING! ～Cherising Time～",
+   "vndb": [
+    "yunohanaspringcherishingtime",
+    "yunohanaspringcherishingtimedownloadedition",
+    "yunohanaspringcherishingtimelimitededition",
+    "yunohanaspringcherishingtimeregularedition",
+    "ゆのはなspringcherishingtime",
+    "ゆのはなspringcherishingtimedl版"
+   ]
+  },
+  {
+   "vn": "v4542",
+   "tid": "PCSG00938",
+   "vita3k": "Wand of Fortune R2",
+   "vndb": [
+    "wandoffortune2jikuunishizumumokushiroku",
+    "wandoffortuner2jikuunishizumumokushirokudownloadedition",
+    "wandoffortuner2jikuunishizumumokushirokulimitededition",
+    "wandoffortuner2jikuunishizumumokushirokuregularedition",
+    "wof2",
+    "xingyunzhizhang2yanmoyushikongzhongdemoshilu"
+   ]
+  },
+  {
+   "vn": "v17291",
+   "tid": "PCSG00930",
+   "vita3k": "Hakuouki Yugiroku The Great Banquet of the Members",
+   "vndb": [
+    "hakuoukiyuugiroku",
+    "hakuoukiyuugirokutaishitachinodaienkaidownloadedition",
+    "hakuoukiyuugirokutaishitachinodaienkailimitededition",
+    "hakuoukiyuugirokutaishitachinodaienkairegularedition",
+    "薄桜鬼遊戯録",
+    "薄桜鬼遊戯録隊士達の大宴会dl版"
+   ]
+  },
+  {
+   "vn": "v19756",
+   "tid": "PCSG00930",
+   "vita3k": "Hakuouki Yugiroku The Great Banquet of the Members",
+   "vndb": [
+    "hakuoukiyuugiroku2",
+    "hakuoukiyuugirokunimatsuribayashitotaishitachi",
+    "hakuoukiyuugirokutaishitachinodaienkaidownloadedition",
+    "hakuoukiyuugirokutaishitachinodaienkailimitededition",
+    "hakuoukiyuugirokutaishitachinodaienkairegularedition",
+    "薄桜鬼遊戯録弐祭囃子と隊士達"
+   ]
+  },
+  {
+   "vn": "v12928",
+   "tid": "PCSG00991",
+   "vita3k": "Getsuei no Kusari: Kouran Moratorium",
+   "vndb": [
+    "chainsofmoonlightmadnessmoratorium",
+    "getsueinokusarikyouranmoratorium",
+    "getsueinokusarikyouranmoratoriumdownloadedition",
+    "getsueinokusarikyouranmoratoriumfirstpresslimitededition",
+    "getsueinokusarikyouranmoratoriumregularedition",
+    "月影の鎖狂爛モラトリアム"
+   ]
+  },
+  {
+   "vn": "v18397",
+   "tid": "PCSE01305",
+   "vita3k": "The House in Fata Morgana",
+   "vndb": [
+    "fatamorgananoyakataanotherepisodes",
+    "fatamorgananoyakatacollectededition",
+    "fatamorgananoyakatagaiden",
+    "fatamorgananoyakataremaster",
+    "haishishenlouzhiguanchunzhenwange",
+    "thehouseinfatamorganaanotherepisodes"
+   ]
+  },
+  {
+   "vn": "v18990",
+   "tid": "PCSE01305",
+   "vita3k": "The House in Fata Morgana",
+   "vndb": [
+    "fatamorgananoyakatacollectededition",
+    "fatamorganashortstories",
+    "jibuhuibeishushuoyibuhuibeizhumuciweizhujianhuimiedegushi",
+    "tadahoro",
+    "talesaffordednottheirmomentinthelimelightlefttowasteawayinobscurity",
+    "thehouseinfatamorganadreamsoftherevenantscollectorsedition"
+   ]
+  },
+  {
+   "vn": "v28264",
+   "tid": "PCSE01305",
+   "vita3k": "The House in Fata Morgana",
+   "vndb": [
+    "fatamorgananoyakatacollectededition",
+    "fatamorgananoyakatagendaihen",
+    "haishishenlouzhiguanlunhuizhuanshi",
+    "thehouseinfatamorganadreamsoftherevenantscollectorsedition",
+    "thehouseinfatamorganadreamsoftherevenantsedition",
+    "thehouseinfatamorganadreamsoftherevenantsnadownloadedition"
+   ]
+  },
+  {
+   "vn": "v20226",
+   "tid": "PCSG01042",
+   "vita3k": "Kenka Bancho Otome : Kanzenmuketsu no My Honey",
+   "vndb": [
+    "kbomyperfecthoney",
+    "kenkabanchouotomekanzenmuketsunomyhoney",
+    "kenkabanchouotomekanzenmuketsunomyhoneydownloadedition",
+    "kenkabanchouotomekanzenmuketsunomyhoneypackageedition",
+    "xuanhuafanzhangyinuwodewanmeitianxin",
+    "喧嘩番長乙女完全無欠のマイハニー"
+   ]
+  },
+  {
+   "vn": "v20249",
+   "tid": "PCSG01070",
+   "vita3k": "Song of Heiligenstadt",
+   "vndb": [
+    "heiligenstadlerlied",
+    "heiligenstadtnouta",
+    "heiligenstadtnoutadownloadedition",
+    "heiligenstadtnoutalimitededition",
+    "heiligenstadtnoutaregularedition",
+    "ハイリゲンシュタットの歌"
+   ]
+  },
+  {
+   "vn": "v151",
+   "tid": "PCSG00959",
+   "vita3k": "DESIRE remaster ver.",
+   "vndb": [
+    "desire",
+    "desirehaitokunorasen",
+    "desireremasterversiondownloadedition",
+    "desireremasterversionfirstpresslimitededition",
+    "desireremasterversionregularedition",
+    "desire背徳の螺旋"
+   ]
+  },
+  {
+   "vn": "v20326",
+   "tid": "PCSG01011",
+   "vita3k": "空蝉之廻",
+   "vndb": [
+    "utsuseminomeguri",
+    "utsuseminomeguridownloadedition",
+    "utsuseminomeguripackageedition",
+    "空蝉の廻",
+    "空蝉の廻ダウンロード版",
+    "空蝉の廻パッケージ版"
+   ]
+  },
+  {
+   "vn": "v21112",
+   "tid": "PCSG01096",
+   "vita3k": "Beast and Princess ～in blossom～",
+   "vndb": [
+    "moujuutachitoohimesamainblossom",
+    "moujuutachitoohimesamainblossomdownloadedition",
+    "moujuutachitoohimesamainblossomlimitededition",
+    "moujuutachitoohimesamainblossomregularedition",
+    "猛獣たちとお姫様inblossom",
+    "猛獣たちとお姫様inblossomdl版"
+   ]
+  },
+  {
+   "vn": "v1629",
+   "tid": "PCSG01036",
+   "vita3k": "Scarlet Fragments ~Omoiiro no Memories~",
+   "vndb": [
+    "feisedesuipian",
+    "hiironokakera",
+    "hiironokakeraomoiironokioku",
+    "hiironokakeraomoiironokiokudownloadedition",
+    "hiironokakeraomoiironokiokulimitededition",
+    "scarletfragment"
+   ]
+  },
+  {
+   "vn": "v1713",
+   "tid": "PCSG01036",
+   "vita3k": "Scarlet Fragments ~Omoiiro no Memories~",
+   "vndb": [
+    "feisedesuipianzainapiantiankongxia",
+    "hiironokakeraanosoranoshitade",
+    "hiironokakeraomoiironokioku",
+    "hiironokakeraomoiironokiokudownloadedition",
+    "hiironokakeraomoiironokiokulimitededition",
+    "緋色の欠片あの空の下で"
+   ]
+  },
+  {
+   "vn": "v21782",
+   "tid": "PCSG01139",
+   "vita3k": "Evening Bell of Piofiore",
+   "vndb": [
+    "piofiorefatedmemories",
+    "piofiorenobanshou",
+    "piofiorenobanshoudownloadedition",
+    "piofiorenobanshoulimitededition",
+    "piofiorenobanshouregularedition",
+    "qianchengzhihuadewanzhong"
+   ]
+  }
+ ],
+ "unmatched_vita": [
+  {
+   "vn": "v13636",
+   "title": "Sengoku Hime 5 ~Senka Tatsu Haou no Keifu~",
+   "characters": 91,
+   "titles": [
+    "sengokuhime5senkatatsuhaounokeifu",
+    "戦極姫5戦渦断つ覇王の系譜",
+    "戦極姫5戦禍断つ覇王の系譜",
+    "戦極姫5戦禍断つ覇王の系譜豪華"
+   ]
+  },
+  {
+   "vn": "v23492",
+   "title": "Moe Moe Niji Taisen (Ryaku) 3",
+   "characters": 63,
+   "titles": [
+    "mengmeng2cidazhanlue3",
+    "moemoenijitaisenryaku3",
+    "moemoeworldwarii3",
+    "moeniji3",
+    "萌え萌え2次大戦略3"
+   ]
+  },
+  {
+   "vn": "v5922",
+   "title": "Kara no Shoujo - The Second Episode",
+   "characters": 48,
+   "titles": [
+    "karanoshojothesecondepisode",
+    "karanoshoujo2",
+    "karanoshoujothesecondepisode",
+    "kns2",
+    "uronoshoujo"
+   ]
+  },
+  {
+   "vn": "v2153",
+   "title": "Umineko no Naku Koro ni Chiru",
+   "characters": 43,
+   "titles": [
+    "haimaomingqizhishisan",
+    "kogdaplachutchajkikrah",
+    "uminekononakukoronichiru",
+    "uminekononakukoronipsvitaport",
+    "uminekowhentheycryanswerarcs"
+   ]
+  },
+  {
+   "vn": "v5919",
+   "title": "Moe Moe Daisensou☆Gendaibaan",
+   "characters": 43,
+   "titles": [
+    "moemoedaisensougendaibaan",
+    "moemoedaisensougendaiban",
+    "萌え萌え大戦争げんだいばん",
+    "萌え萌え大戦争げんだいばーん",
+    "萌え萌え大戦争げんだいばーんプレミアムエディション版"
+   ]
+  },
+  {
+   "vn": "v31157",
+   "title": "Higurashi no Naku Koro ni: Console Arcs",
+   "characters": 37,
+   "titles": [
+    "higurashinonakukoroniconsolearcs",
+    "higurashinonakukoronisui",
+    "higurashiproject",
+    "higurashiwhentheycryconsolearcs",
+    "ひぐらしのなく頃にconsolearcs"
+   ]
+  },
+  {
+   "vn": "v1141",
+   "title": "Ore-tachi ni Tsubasa wa Nai",
+   "characters": 36,
+   "titles": [
+    "oretachinitsubasawanai",
+    "oretsuba",
+    "wedonthavewings",
+    "wewithoutwings",
+    "womenmeiyouchibang"
+   ]
+  },
+  {
+   "vn": "v810",
+   "title": "Kara no Shoujo",
+   "characters": 30,
+   "titles": [
+    "girlintheshell",
+    "karanoshojo",
+    "karanoshoujo",
+    "karanoshoujothefirstepisode",
+    "kezhishaonu"
+   ]
+  },
+  {
+   "vn": "v7724",
+   "title": "Grisaia no Rakuen -LE EDEN DE LA GRISAIA-",
+   "characters": 30,
+   "titles": [
+    "grisaianorakuenleedendelagrisaia",
+    "huisedeleyuan",
+    "ledendelagrisaia",
+    "theedenofgrisaia",
+    "グリザイアの楽園leedendelagrisaia"
+   ]
+  },
+  {
+   "vn": "v19848",
+   "title": "Nil Admirari no Tenbin: Kuroyuri En'youtan",
+   "characters": 29,
+   "titles": [
+    "niladmirarinotenbin2",
+    "niladmirarinotenbinkuroyurienyoutan",
+    "niladmirarinotenbintwinpack",
+    "ニルアドミラリの天秤クロユリ炎陽譚",
+    "ニルアドミラリの天秤ツインパック"
+   ]
+  },
+  {
+   "vn": "v7602",
+   "title": "Fate/EXTRA",
+   "characters": 28,
+   "titles": [
+    "fateextra",
+    "fateextrapsndownload",
+    "フェイトエクストラ"
+   ]
+  },
+  {
+   "vn": "v842",
+   "title": "Ore-tachi ni Tsubasa wa Nai ~Prelude~",
+   "characters": 27,
+   "titles": [
+    "oretachinitsubasawanai",
+    "oretachinitsubasawanaiprelude",
+    "oretsuba",
+    "俺たちに翼はない",
+    "俺たちに翼はないprelude"
+   ]
+  },
+  {
+   "vn": "v20431",
+   "title": "Sakura no Toki -Sakura no Mori no Shita o Ayumu-",
+   "characters": 27,
+   "titles": [
+    "sakuranotokisakuranomorinoshitaoayumu",
+    "sakutoki",
+    "yingzhikemanbuyuyinghuazhisenxia",
+    "サクラノ刻櫻の森の下を歩む",
+    "樱之刻漫步于樱花之森下"
+   ]
+  },
+  {
+   "vn": "v19100",
+   "title": "Cross Ange - Tenshi to Ryuu no Rondo tr.",
+   "characters": 24,
+   "titles": [
+    "crossangerondoofangelsanddragons",
+    "crossangetenshitoryuunorondotr",
+    "クロスアンジュ天使と竜の輪舞tr"
+   ]
+  },
+  {
+   "vn": "v68",
+   "title": "Higurashi no Naku Koro ni Kai",
+   "characters": 22,
+   "titles": [
+    "hanchanmingqizhishijie",
+    "higu2",
+    "higurashinonakukoronikai",
+    "higurashinonakukoronisui",
+    "higurashiproject"
+   ]
+  },
+  {
+   "vn": "v16212",
+   "title": "Tokeijikake no Ley Line -Asagiri ni Chiru Hana-",
+   "characters": 22,
+   "titles": [
+    "aclockworkleylineflowersfallinginthemorningmist",
+    "finalepisodeofleyline",
+    "shizhongjiguandeleylinezhaowuzhongpiaolingzhihua",
+    "tokeijikakenoleyline3",
+    "tokeijikakenoleylineasagirinichiruhana"
+   ]
+  },
+  {
+   "vn": "v29345",
+   "title": "Class of '09",
+   "characters": 22,
+   "titles": [
+    "classof09",
+    "itsnotadatingsimitsarejectionsim",
+    "theantivisualnovel"
+   ]
+  },
+  {
+   "vn": "v20903",
+   "title": "Hatsukoi Valentine",
+   "characters": 21,
+   "titles": [
+    "hatsukoivalentine",
+    "初恋ばれんたいん"
+   ]
+  },
+  {
+   "vn": "v20951",
+   "title": "Hatsukoi Valentine SPECIAL",
+   "characters": 21,
+   "titles": [
+    "hatsukoivalentinespecial",
+    "初恋ばれんたいんspecial"
+   ]
+  },
+  {
+   "vn": "v12849",
+   "title": "Ao no Kanata no Four Rhythm",
+   "characters": 20,
+   "titles": [
+    "4rhythm",
+    "aokana",
+    "aokanafourrhythmsacrosstheblue",
+    "aonokanatanofourrhythm",
+    "beyondtheskyintothefirmament"
+   ]
+  },
+  {
+   "vn": "v20616",
+   "title": "Gensou no Artemis",
+   "characters": 20,
+   "titles": [
+    "actressschoolmysteryadventure",
+    "artemisofillusion",
+    "gensounoartemis",
+    "幻想のアルテミス"
+   ]
+  },
+  {
+   "vn": "v24",
+   "title": "Umineko no Naku Koro ni",
+   "characters": 19,
+   "titles": [
+    "haimaomingqizhishi",
+    "kogdaplachutchajki",
+    "uminekononakukoroni",
+    "uminekononakukoronipsvitaport",
+    "uminekowhentheycryquestionarcs"
+   ]
+  },
+  {
+   "vn": "v47",
+   "title": "Kagetsu Tooya",
+   "characters": 19,
+   "titles": [
+    "geyueshiye",
+    "kagetsutohya",
+    "kagetsutooya",
+    "歌月十夜"
+   ]
+  },
+  {
+   "vn": "v10028",
+   "title": "Irotoridori no Hikari",
+   "characters": 19,
+   "titles": [
+    "colorfullight",
+    "hyeonghyeongsaeksaeguibit",
+    "irohika",
+    "irotoridorinohikari",
+    "irotoridorinosekaiworldsendrebirth"
+   ]
+  },
+  {
+   "vn": "v11093",
+   "title": "Tokeijikake no Ley Line -Zan'ei no Yoru ga Akeru Toki-",
+   "characters": 19,
+   "titles": [
+    "aclockworkleylinedaybreakofremnantsshadow",
+    "aclockworkleylinedaybreakofremnantsshadows",
+    "shizhongjiguandeleylinecanyingzhiyejiangmingshi",
+    "tokeijikakenoleyline2",
+    "tokeijikakenoleylinekagerounisamayoumajo"
+   ]
+  },
+  {
+   "vn": "v14062",
+   "title": "Majo Koi Nikki",
+   "characters": 19,
+   "titles": [
+    "majokoinikki",
+    "majokoinikkidragoncaravan",
+    "majonikki",
+    "monulianairiji",
+    "thewitchslovediary"
+   ]
+  },
+  {
+   "vn": "v16842",
+   "title": "Date A Live: Twin Edition Rio Reincarnation",
+   "characters": 19,
+   "titles": [
+    "datealiverioreincarnation",
+    "datealivetwineditionrioreincarnation",
+    "randevuczhizhnjureinkarnatsijario",
+    "yuehuidazuozhanlinxulunhui",
+    "yuehuidazuozhantwineditionriolunhui"
+   ]
+  },
+  {
+   "vn": "v18157",
+   "title": "Echo",
+   "characters": 19,
+   "titles": [
+    "echo"
+   ]
+  },
+  {
+   "vn": "v25725",
+   "title": "SHUFFLE! Episode 2 ~Kami ni mo Akuma ni mo Nerawareteiru Otoko~",
+   "characters": 19,
+   "titles": [
+    "shuffleepisode2beishenyumotongshidingshangdenanren",
+    "shuffleepisode2kaminimoakumanimonerawareteiruotoko",
+    "shuffleepisode2被神与魔同时盯上的男人",
+    "shuffleepisode2被神與魔同時盯上的男人",
+    "shuffleエピソード2神にも悪魔にも狙われている男"
+   ]
+  },
+  {
+   "vn": "v18777",
+   "title": "Ikemen Bakumatsu ◆ Unmei no Koi",
+   "characters": 18,
+   "titles": [
+    "destinedtoloveikemensamurairomances",
+    "dtl",
+    "ikemenbakumatsuunmeinokoi",
+    "ikemenbakumatsuunmeinokoihananomiyakotokoinoran",
+    "イケメン幕末運命の恋"
+   ]
+  },
+  {
+   "vn": "v47507",
+   "title": "Favorite Dear",
+   "characters": 18,
+   "titles": [
+    "favoritedear",
+    "favoritedearenkannomonogatari",
+    "フェィバリットディア円環の物語",
+    "フェイバリットディア"
+   ]
+  },
+  {
+   "vn": "v5390",
+   "title": "Tokimeki Memorial 2",
+   "characters": 17,
+   "titles": [
+    "tokimekimemorial2",
+    "tokimemo2",
+    "ときめきメモリアル2",
+    "ときメモ2"
+   ]
+  },
+  {
+   "vn": "v10588",
+   "title": "Roommates",
+   "characters": 17,
+   "titles": [
+    "roommates"
+   ]
+  },
+  {
+   "vn": "v12480",
+   "title": "Daitoshokan no Hitsujikai -Dreaming Sheep-",
+   "characters": 17,
+   "titles": [
+    "agoodlibrarianlikeagoodshepherdfandiscafterandanotherstory",
+    "daitoshokannohitsujikaidreamingsheep",
+    "daitoshokannohitsujikailibraryparty",
+    "datushuguandemuyangrendreamingsheep",
+    "大図書館の羊飼いdreamingsheep"
+   ]
+  },
+  {
+   "vn": "v14706",
+   "title": "Date A Live: Arusu Install",
+   "characters": 17,
+   "titles": [
+    "datealivearsinstall",
+    "datealivearusuinstall",
+    "datealiveii",
+    "datealivetwineditionrioreincarnation",
+    "yuehuidazuozhan"
+   ]
+  },
+  {
+   "vn": "v17731",
+   "title": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Zoku",
+   "characters": 17,
+   "titles": [
+    "guoranyouxiliwodeqingchunlianaiwuyuyeyouwentixu",
+    "guoranyouxizhongwodeqingchunlianaiwuyuyeyouwentixu",
+    "oregairu2",
+    "yaharigamedemoorenoseishunlovecomewamachigatteiruzoku",
+    "やはりゲームでも俺の青春ラブコメはまちがっている続"
+   ]
+  },
+  {
+   "vn": "v31383",
+   "title": "Circadia",
+   "characters": 17,
+   "titles": [
+    "circadia",
+    "サーカディア"
+   ]
+  },
+  {
+   "vn": "v19",
+   "title": "Tokimeki Memorial",
+   "characters": 16,
+   "titles": [
+    "chunaishouzha",
+    "heartthrobmemorial",
+    "tokimekimemorial",
+    "tokimekimemorialforeverwithyou",
+    "tokimemo"
+   ]
+  },
+  {
+   "vn": "v1185",
+   "title": "Stellar ☆ Theater",
+   "characters": 16,
+   "titles": [
+    "stellartheater",
+    "stellartheaterportable",
+    "ステラシアター",
+    "ステラシアターポータブル"
+   ]
+  },
+  {
+   "vn": "v1377",
+   "title": "Kono Yo no Hate de Koi o Utau Shoujo YU-NO",
+   "characters": 16,
+   "titles": [
+    "isesangkkeuteseosarangeulnoraehaneunsonyeoyuno",
+    "koihate",
+    "konoyonohatedekoioutaushoujoyuno",
+    "yuno",
+    "yunoagirlthatchantsloveattheboundofthisworldpc98dlc"
+   ]
+  },
+  {
+   "vn": "v1940",
+   "title": "Beniiro Tenjou Ayakashi Kitan",
+   "characters": 16,
+   "titles": [
+    "beniirotenjouayakashikitan",
+    "beniirotenjouayakashikitanfutaai",
+    "beniten",
+    "紅天",
+    "紅色天井艶妖綺譚"
+   ]
+  },
+  {
+   "vn": "v10979",
+   "title": "Kono Oozora ni, Tsubasa o Hirogete: FLIGHT DIARY",
+   "characters": 16,
+   "titles": [
+    "ifmyhearthadwingsflightdiary",
+    "imhfd",
+    "konooozoranitsubasaohirogetecruisesign",
+    "konooozoranitsubasaohirogeteflightdiary",
+    "konosorafd"
+   ]
+  },
+  {
+   "vn": "v945",
+   "title": "Katawa Shoujo",
+   "characters": 15,
+   "titles": [
+    "disabilitygirls",
+    "jangaesonyeo",
+    "katawashoujo",
+    "katawashoujor7",
+    "khimkhuytthiun"
+   ]
+  },
+  {
+   "vn": "v1949",
+   "title": "Memories Off 6: Next Relation",
+   "characters": 15,
+   "titles": [
+    "memoriesoff6completedownloadeditionpsvitaedition",
+    "memoriesoff6completepsvitaedition",
+    "memoriesoff6nextrelation",
+    "mo6nr",
+    "twavesecondchapter"
+   ]
+  },
+  {
+   "vn": "v8158",
+   "title": "Daitoshokan no Hitsujikai",
+   "characters": 15,
+   "titles": [
+    "agoodlibrarianlikeagoodshepherd",
+    "daitoshokannohitsujikai",
+    "daitoshokannohitsujikailibraryparty",
+    "datushuguandemuyangren",
+    "大図書館の羊飼い"
+   ]
+  },
+  {
+   "vn": "v12630",
+   "title": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru.",
+   "characters": 15,
+   "titles": [
+    "guoranyouxiliwodeqingchunlianaiwuyuyeyouwenti",
+    "guoranyouxizhongwodeqingchunlianaiwuyuyeyouwenti",
+    "hamachi",
+    "myyouthromanticcomedyingameiswrongasiexpected",
+    "oregairu"
+   ]
+  },
+  {
+   "vn": "v22791",
+   "title": "Grisaia: Phantom Trigger Vol. 3",
+   "characters": 15,
+   "titles": [
+    "grisaiaphantomtrigger0304",
+    "grisaiaphantomtriggervol3",
+    "huisehuanyingbanjidi3juan",
+    "pt3",
+    "グリザイアファントムトリガー0304"
+   ]
+  },
+  {
+   "vn": "v28806",
+   "title": "Tsui no Sora Remake",
+   "characters": 15,
+   "titles": [
+    "endskyremake",
+    "tnsr",
+    "tsuinosoraremake",
+    "tsuire",
+    "zhongzhikongremake"
+   ]
+  },
+  {
+   "vn": "v776",
+   "title": "Rui wa Tomo o Yobu",
+   "characters": 14,
+   "titles": [
+    "ruicallstomo",
+    "ruitomo",
+    "ruiwatomooyobu",
+    "zhiyileiju",
+    "るいは智を呼ぶ"
+   ]
+  },
+  {
+   "vn": "v1646",
+   "title": "Memories Off 6 ~T-Wave~",
+   "characters": 14,
+   "titles": [
+    "memoff6",
+    "memooff6",
+    "memoriesoff6completedownloadeditionpsvitaedition",
+    "memoriesoff6completepsvitaedition",
+    "memoriesoff6twave"
+   ]
+  },
+  {
+   "vn": "v10016",
+   "title": "Tokeijikake no Ley Line -Tasogaredoki no Kyoukaisen-",
+   "characters": 14,
+   "titles": [
+    "aclockworkleyline",
+    "aclockworkleylinetheborderlineofdusk",
+    "shizhongjiguandeleylinehuanghunshidejingjiexian",
+    "tokeijikakenoleylinekagerounisamayoumajo",
+    "tokeijikakenoleylinekagerounisamayoumajotrialedition"
+   ]
+  },
+  {
+   "vn": "v11038",
+   "title": "Dream Club Zero",
+   "characters": 14,
+   "titles": [
+    "dreamcclubzero",
+    "dreamclubzero",
+    "dreamclubzeroportable",
+    "ドリームクラブzero",
+    "ドリームクラブzeroportable"
+   ]
+  },
+  {
+   "vn": "v16497",
+   "title": "Élan",
+   "characters": 14,
+   "titles": [
+    "elan",
+    "elanpluspsnedition",
+    "elanpsnedition",
+    "エラン",
+    "エランプラス"
+   ]
+  },
+  {
+   "vn": "v22790",
+   "title": "Grisaia: Phantom Trigger Vol. 2",
+   "characters": 14,
+   "titles": [
+    "grisaiaphantomtrigger0102",
+    "grisaiaphantomtriggervol2",
+    "huisehuanyingbanjidi2juan",
+    "huisehuanyingbanjivol2",
+    "pt2"
+   ]
+  },
+  {
+   "vn": "v22792",
+   "title": "Grisaia: Phantom Trigger Vol. 4",
+   "characters": 14,
+   "titles": [
+    "grisaiaphantomtrigger0304",
+    "grisaiaphantomtriggervol4",
+    "huisehuanyingbanjidi4juan",
+    "pt4",
+    "グリザイアファントムトリガー0304"
+   ]
+  },
+  {
+   "vn": "v33",
+   "title": "Kanon",
+   "characters": 13,
+   "titles": [
+    "kanon"
+   ]
+  },
+  {
+   "vn": "v67",
+   "title": "Higurashi no Naku Koro ni",
+   "characters": 13,
+   "titles": [
+    "gdyzapłaczacykady",
+    "hanchanmingqizhishichutipian",
+    "higurashinonakukoroni",
+    "higurashinonakukoronisui",
+    "higurashiproject"
+   ]
+  },
+  {
+   "vn": "v3246",
+   "title": "Tsui no Sora",
+   "characters": 13,
+   "titles": [
+    "endsky",
+    "tns",
+    "tsuinosora",
+    "tsuinosorarenpyport",
+    "zhongzhikong"
+   ]
+  },
+  {
+   "vn": "v3941",
+   "title": "Rui wa Tomo o Yobu Fan Disc -Asu no Mukou ni Mieru Kaze-",
+   "characters": 13,
+   "titles": [
+    "ruiwatomooyobu",
+    "ruiwatomooyobufandiscasunomukounimierukaze",
+    "zhiyileijufdchuixiangmingribiandekeshizhifeng",
+    "るいは智を呼ぶ",
+    "るいは智を呼ぶfd"
+   ]
+  },
+  {
+   "vn": "v8202",
+   "title": "Memories Off: Yubikiri no Kioku - Futari no Fuuryuuan",
+   "characters": 13,
+   "titles": [
+    "memoriesoffyubikirinokiokufutarinofuuryuuan",
+    "memoriesoffyubikirinokiokufutarinofuuryuuanplus",
+    "memoriesoffyubikirinokiokupsvitaedition",
+    "ゆびきりの記憶ふたりの風流庵ぷらす",
+    "メモリーズオフゆびきりの記憶psvita版"
+   ]
   }
  ],
  "conflicts": [],
  "ambiguous": {
+  "12jinokanetocinderellacinderellaseriestriplezenkanpack": [
+   "v10105",
+   "v11879",
+   "v8043"
+  ],
   "12jinokanetocinderellacinderellaseriestriplezenkanpackdeluxeedition": [
    "v10105",
    "v11879",
@@ -851,6 +1543,11 @@
    "v8043"
   ],
   "12jinokanetocinderellacinderellaseriestriplezenkanpackregularedition": [
+   "v10105",
+   "v11879",
+   "v8043"
+  ],
+  "12時の鐘とシンデレラシンデレラシリーズトリプル全巻パック": [
    "v10105",
    "v11879",
    "v8043"
@@ -870,11 +1567,19 @@
    "v11879",
    "v8043"
   ],
+  "amnesialatercrowdvedition": [
+   "v11186",
+   "v8591"
+  ],
   "amnesialatercrowdveditionダウンロード版": [
    "v11186",
    "v8591"
   ],
   "amnesialatercrowdveditionパッケージ版": [
+   "v11186",
+   "v8591"
+  ],
+  "amnesialaterxcrowdvedition": [
    "v11186",
    "v8591"
   ],
@@ -893,6 +1598,10 @@
   "beniirotenjouayakashikitanfutaai": [
    "v1940",
    "v3427"
+  ],
+  "blackwolvessagaweiundschwarz": [
+   "v12775",
+   "v8095"
   ],
   "blackwolvessagaweiundschwarzdl版": [
    "v12775",
@@ -925,6 +1634,10 @@
   "cc": [
    "v14018",
    "v66"
+  ],
+  "chaosheaddual": [
+   "v22505",
+   "v3091"
   ],
   "chaosheadduallimitededition": [
    "v22505",
@@ -1053,6 +1766,10 @@
    "v18831",
    "v19072"
   ],
+  "hakuoukiyuugirokutaishitachinodaienkai": [
+   "v17291",
+   "v19756"
+  ],
   "hakuoukiyuugirokutaishitachinodaienkaidownloadedition": [
    "v17291",
    "v19756"
@@ -1064,6 +1781,10 @@
   "hakuoukiyuugirokutaishitachinodaienkairegularedition": [
    "v17291",
    "v19756"
+  ],
+  "hanayakanariwagaichizokugentounostalgie": [
+   "v12188",
+   "v9915"
   ],
   "hanayakanariwagaichizokugentounostalgiedownloadedition": [
    "v12188",
@@ -1092,6 +1813,10 @@
   "harukanarutokinonakade3ultimatetrialedition": [
    "v3260",
    "v3261"
+  ],
+  "helloladysuperiordynamis": [
+   "v13631",
+   "v15892"
   ],
   "helloladysuperiordynamispackageedition": [
    "v13631",
@@ -1124,6 +1849,10 @@
    "v1629",
    "v1713"
   ],
+  "irotoridorinosekaiworldsendrebirth": [
+   "v10028",
+   "v5834"
+  ],
   "irotoridorinosekaiworldsendrebirthdownloadedition": [
    "v10028",
    "v5834"
@@ -1131,6 +1860,10 @@
   "irotoridorinosekaiworldsendrebirthregularedition": [
    "v10028",
    "v5834"
+  ],
+  "juuzaengiengetsusangokuden12": [
+   "v10289",
+   "v12714"
   ],
   "juuzaengiengetsusangokuden12downloadedition": [
    "v10289",
@@ -1152,6 +1885,10 @@
    "v10606",
    "v13072"
   ],
+  "konooozoranitsubasaohirogetecruisesign": [
+   "v10979",
+   "v9093"
+  ],
   "konooozoranitsubasaohirogetecruisesignlimitededition": [
    "v10979",
    "v9093"
@@ -1159,6 +1896,10 @@
   "konooozoranitsubasaohirogetecruisesignregularedition": [
    "v10979",
    "v9093"
+  ],
+  "lovelycation12": [
+   "v10288",
+   "v6682"
   ],
   "lovelycation12downloadedition": [
    "v10288",
@@ -1196,6 +1937,10 @@
    "v5690",
    "v8202"
   ],
+  "moujuutsukaitooujisamaflowersnow": [
+   "v4540",
+   "v7815"
+  ],
   "moujuutsukaitooujisamaflowersnowdownloadedition": [
    "v4540",
    "v7815"
@@ -1219,6 +1964,10 @@
   "niladmirarinotenbintwinpack": [
    "v18163",
    "v19848"
+  ],
+  "oretachinitsubasawanai": [
+   "v1141",
+   "v842"
   ],
   "oretachinitsubasawanaidownloadedition": [
    "v1141",
@@ -1248,9 +1997,17 @@
    "v1715",
    "v7803"
   ],
+  "qiangdanbianbojuewangzaishishuangchongbaocn": [
+   "v7014",
+   "v7679"
+  ],
   "qiangdanbianbojuewangzaishishuangchongbaocnpackageedition": [
    "v7014",
    "v7679"
+  ],
+  "romeovsjulietallseriespack": [
+   "v12282",
+   "v13911"
   ],
   "romeovsjulietallseriespackdeluxeedition": [
    "v12282",
@@ -1263,6 +2020,10 @@
   "romeovsjulietallseriespackregularedition": [
    "v12282",
    "v13911"
+  ],
+  "ruiwatomooyobu": [
+   "v3941",
+   "v776"
   ],
   "ruiwatomooyobudownloadedition": [
    "v3941",
@@ -1281,6 +2042,10 @@
    "v28792",
    "v29378",
    "v30342"
+  ],
+  "schoolwarszenkanpackhonpensotsugyousensen": [
+   "v10950",
+   "v12019"
   ],
   "schoolwarszenkanpackhonpensotsugyousensendeluxeedition": [
    "v10950",
@@ -1362,6 +2127,10 @@
    "v2002",
    "v6618"
   ],
+  "steinsgateダブルパック": [
+   "v2002",
+   "v6618"
+  ],
   "steinsgateダブルパック初回限定版セット": [
    "v2002",
    "v6618"
@@ -1382,11 +2151,22 @@
    "v18990",
    "v28264"
   ],
+  "thehouseinfatamorganadreamsoftherevenantsna": [
+   "v12402",
+   "v18397",
+   "v18990",
+   "v28264"
+  ],
   "thehouseinfatamorganadreamsoftherevenantsnadownloadedition": [
    "v12402",
    "v18397",
    "v18990",
    "v28264"
+  ],
+  "tokeijikakenoleylinekagerounisamayoumajo": [
+   "v10016",
+   "v11093",
+   "v16212"
   ],
   "tokeijikakenoleylinekagerounisamayoumajodownloadedition": [
    "v10016",
@@ -1402,6 +2182,12 @@
    "v10016",
    "v11093",
    "v16212"
+  ],
+  "tokyoyamanoteboysforvfandisc": [
+   "v11312",
+   "v11313",
+   "v11314",
+   "v16411"
   ],
   "tokyoyamanoteboysforvfandiscdownloadedition": [
    "v11312",
@@ -1421,6 +2207,11 @@
    "v11314",
    "v16411"
   ],
+  "tokyoyamanoteboysforvmaindisc": [
+   "v7203",
+   "v7204",
+   "v7675"
+  ],
   "tokyoyamanoteboysforvmaindiscdownloadedition": [
    "v7203",
    "v7204",
@@ -1435,6 +2226,12 @@
    "v7203",
    "v7204",
    "v7675"
+  ],
+  "tokyoヤマノテboysforvfandisc": [
+   "v11312",
+   "v11313",
+   "v11314",
+   "v16411"
   ],
   "tokyoヤマノテboysforvfandiscdl版": [
    "v11312",
@@ -1453,6 +2250,11 @@
    "v11313",
    "v11314",
    "v16411"
+  ],
+  "tokyoヤマノテboysforvmaindisc": [
+   "v7203",
+   "v7204",
+   "v7675"
   ],
   "tokyoヤマノテboysforvmaindiscdl版": [
    "v7203",
@@ -1473,6 +2275,10 @@
    "v2153",
    "v24"
   ],
+  "utanoprincesamaamazingariasweetserenadelove": [
+   "v5471",
+   "v5472"
+  ],
   "utanoprincesamaamazingariasweetserenadelovedownloadedition": [
    "v5471",
    "v5472"
@@ -1489,6 +2295,11 @@
    "v5471",
    "v5472"
   ],
+  "utawarerumonotrilogybox": [
+   "v18717",
+   "v3",
+   "v7721"
+  ],
   "utawarerumonotrilogyboxdownloadedition": [
    "v18717",
    "v3",
@@ -1498,6 +2309,10 @@
    "v18717",
    "v3",
    "v7721"
+  ],
+  "wandoffortuner": [
+   "v1874",
+   "v3284"
   ],
   "wandoffortunerdownloadedition": [
    "v1874",
@@ -1511,7 +2326,15 @@
    "v1874",
    "v3284"
   ],
+  "whitealbum2shiawasenomukougawa": [
+   "v16493",
+   "v7771"
+  ],
   "whitealbum2shiawasenomukougawaaquaprice2800": [
+   "v16493",
+   "v7771"
+  ],
+  "whitealbum2shiawasenomukougawaas": [
    "v16493",
    "v7771"
   ],
@@ -1532,6 +2355,10 @@
    "v7771"
   ],
   "whitealbum2shiawasenomukougawaregularedition": [
+   "v16493",
+   "v7771"
+  ],
+  "whitealbum2幸せの向こう側": [
    "v16493",
    "v7771"
   ],
@@ -1564,144 +2391,6 @@
    "v20070",
    "v20071",
    "v20072"
-  ],
-  "yumeutsutsubundle": [
-   "v24328",
-   "v26592"
-  ],
-  "zeroescape9jikan9nin9notobirazenninshiboudesudoublepackdownloadedition": [
-   "v3112",
-   "v7809"
-  ],
-  "zeroescape9jikan9nin9notobirazenninshiboudesudoublepackpackageedition": [
-   "v3112",
-   "v7809"
-  ],
-  "zeroescape9時間9人9の扉善人シボウデスダブルパックダウンロード版": [
-   "v3112",
-   "v7809"
-  ],
-  "zeroescape9時間9人9の扉善人シボウデスダブルパックパッケージ版": [
-   "v3112",
-   "v7809"
-  ],
-  "zeroescapethenonarygameseudownloadedition": [
-   "v3112",
-   "v7809"
-  ],
-  "zeroescapethenonarygamesnadownloadedition": [
-   "v3112",
-   "v7809"
-  ],
-  "zeroescapethenonarygamesnapackageedition": [
-   "v3112",
-   "v7809"
-  ],
-  "いろとりどりのセカイworldsendrebirthダウンロード版": [
-   "v10028",
-   "v5834"
-  ],
-  "いろとりどりのセカイworldsendrebirth通常版": [
-   "v10028",
-   "v5834"
-  ],
-  "うたのプリンスさまっamazingariasweetserenadelovedl版": [
-   "v5471",
-   "v5472"
-  ],
-  "うたのプリンスさまっamazingariasweetserenadelovepremiumprincessbox": [
-   "v5471",
-   "v5472"
-  ],
-  "うたのプリンスさまっamazingariasweetserenadelove初回限定amazingsweetlovebox": [
-   "v5471",
-   "v5472"
-  ],
-  "うたのプリンスさまっamazingariasweetserenadelove通常版": [
-   "v5471",
-   "v5472"
-  ],
-  "うたわれるものトリロジーボックスダウンロード版": [
-   "v18717",
-   "v3",
-   "v7721"
-  ],
-  "うたわれるものトリロジーボックスパッケージ版": [
-   "v18717",
-   "v3",
-   "v7721"
-  ],
-  "かたわ少女r7": [
-   "v1516",
-   "v945"
-  ],
-  "この大空に翼をひろげてcruisesign通常版": [
-   "v10979",
-   "v9093"
-  ],
-  "この大空に翼をひろげてcruisesign限定版": [
-   "v10979",
-   "v9093"
-  ],
-  "ひぐらしのなく頃に粋": [
-   "v31157",
-   "v67",
-   "v68"
-  ],
-  "ひぐらしのなく頃に粋ダウンロード版": [
-   "v31157",
-   "v67",
-   "v68"
-  ],
-  "るいは智を呼ぶ": [
-   "v3941",
-   "v776"
-  ],
-  "るいは智を呼ぶ通常版": [
-   "v3941",
-   "v776"
-  ],
-  "るいは智を呼ぶ限定版": [
-   "v3941",
-   "v776"
-  ],
-  "アルノサージュplusシェルノサージュofflinesurgeconcertoagenttwinpack": [
-   "v15061",
-   "v15062"
-  ],
-  "グリザイアの果実sideepisode": [
-   "v18830",
-   "v18831",
-   "v19072"
-  ],
-  "グリザイアファントムトリガー0102": [
-   "v20194",
-   "v22790"
-  ],
-  "グリザイアファントムトリガー0304": [
-   "v22791",
-   "v22792"
-  ],
-  "スクールウォーズ全巻パック本編卒業戦線ダウンロード版": [
-   "v10950",
-   "v12019"
-  ],
-  "スクールウォーズ全巻パック本編卒業戦線豪華版": [
-   "v10950",
-   "v12019"
-  ],
-  "スクールウォーズ全巻パック本編卒業戦線通常版": [
-   "v10950",
-   "v12019"
-  ],
-  "スタスカsutasuka": [
-   "v2022",
-   "v2023",
-   "v2024",
-   "v5258",
-   "v5854",
-   "v7540",
-   "v7553"
   ]
  },
  "vita": {
@@ -1803,7 +2492,9 @@
    "title": "CROSS†CHANNEL",
    "characters": 13,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00365"
+   ]
   },
   "v67": {
    "title": "Higurashi no Naku Koro ni",
@@ -1895,7 +2586,9 @@
    "title": "Parfait ~Chocolat Second Brew~",
    "characters": 21,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00549"
+   ]
   },
   "v745": {
    "title": "Gakkou de Atta Kowai Hanashi",
@@ -1915,15 +2608,15 @@
    "title": "Rui wa Tomo o Yobu",
    "characters": 14,
    "vndb_ids": [],
-   "vita3k_ids": [
-    "PCSG00216"
-   ]
+   "vita3k_ids": []
   },
   "v801": {
    "title": "Heart no Kuni no Alice ~Wonderful Wonder World~",
    "characters": 12,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00614"
+   ]
   },
   "v810": {
    "title": "Kara no Shoujo",
@@ -1951,7 +2644,9 @@
    "vndb_ids": [
     "PCSG00481"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00481"
+   ]
   },
   "v897": {
    "title": "Natsumegu",
@@ -1991,9 +2686,7 @@
    "title": "Ore-tachi ni Tsubasa wa Nai",
    "characters": 36,
    "vndb_ids": [],
-   "vita3k_ids": [
-    "PCSG00299"
-   ]
+   "vita3k_ids": []
   },
   "v1185": {
    "title": "Stellar ☆ Theater",
@@ -2005,7 +2698,9 @@
    "title": "Sakaagari Hurricane - Let's Pile Up Our School!!",
    "characters": 19,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00906"
+   ]
   },
   "v1241": {
    "title": "Kamaitachi no Yoru",
@@ -2031,7 +2726,9 @@
    "vndb_ids": [
     "PCSG00580"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00580"
+   ]
   },
   "v1341": {
    "title": "Sora*yume",
@@ -2125,6 +2822,7 @@
     "PCSH10057"
    ],
    "vita3k_ids": [
+    "PCSG00217",
     "PCSH10057"
    ]
   },
@@ -2134,7 +2832,9 @@
    "vndb_ids": [
     "PCSG01157"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01157"
+   ]
   },
   "v1803": {
    "title": "Hakuouki Zuisouroku",
@@ -2231,6 +2931,7 @@
    "characters": 11,
    "vndb_ids": [],
    "vita3k_ids": [
+    "PCSG00726",
     "PCSG90197"
    ]
   },
@@ -2374,7 +3075,9 @@
    "title": "Aiyoku no Eustia",
    "characters": 20,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00338"
+   ]
   },
   "v3820": {
    "title": "Akai Suna Ochiru Tsuki",
@@ -2435,7 +3138,9 @@
    "vndb_ids": [
     "PCSG00735"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00735"
+   ]
   },
   "v4602": {
    "title": "Uta no☆Prince-sama♪",
@@ -2453,7 +3158,9 @@
    "vndb_ids": [
     "PCSG00526"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00526"
+   ]
   },
   "v4719": {
    "title": "Scared Rider Xechs",
@@ -2493,7 +3200,9 @@
    "vndb_ids": [
     "PCSG00274"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00274"
+   ]
   },
   "v5154": {
    "title": "Grisaia no Kajitsu -LE FRUIT DE LA GRISAIA-",
@@ -2687,7 +3396,9 @@
    "vndb_ids": [
     "PCSG00426"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00426"
+   ]
   },
   "v6723": {
    "title": "Clock Zero ~Shuuen no Ichibyou~",
@@ -2695,7 +3406,9 @@
    "vndb_ids": [
     "PCSG00469"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00469"
+   ]
   },
   "v6763": {
    "title": "Sengoku Hime 3 ~Tenka o Kirisaku Hikari to Kage~",
@@ -2811,7 +3524,9 @@
    "vndb_ids": [
     "PCSG00470"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00470"
+   ]
   },
   "v7636": {
    "title": "'&' - Sora no Mukou de Sakimasu You ni -",
@@ -2893,9 +3608,7 @@
    "vndb_ids": [
     "PCSG00249"
    ],
-   "vita3k_ids": [
-    "PCSG00249"
-   ]
+   "vita3k_ids": []
   },
   "v7803": {
    "title": "AMNESIA",
@@ -2905,7 +3618,8 @@
    ],
    "vita3k_ids": [
     "PCSB00740",
-    "PCSE00647"
+    "PCSE00647",
+    "PCSG00203"
    ]
   },
   "v7809": {
@@ -2936,7 +3650,9 @@
    "vndb_ids": [
     "PCSG00496"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00496"
+   ]
   },
   "v7836": {
    "title": "Hatoful Kareshi ~Kibou no Gakuen to Shiroi Tsubasa~",
@@ -2983,9 +3699,7 @@
    "vndb_ids": [
     "PCSG00935"
    ],
-   "vita3k_ids": [
-    "PCSG00935"
-   ]
+   "vita3k_ids": []
   },
   "v8158": {
    "title": "Daitoshokan no Hitsujikai",
@@ -3005,7 +3719,9 @@
    "vndb_ids": [
     "PCSG00751"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00751"
+   ]
   },
   "v8243": {
    "title": "Eikoku Tantei Mysteria",
@@ -3017,7 +3733,8 @@
    "vita3k_ids": [
     "PCSB01295",
     "PCSE01187",
-    "PCSE01332"
+    "PCSE01332",
+    "PCSG00753"
    ]
   },
   "v8527": {
@@ -3090,7 +3807,9 @@
    "title": "Furuiro Meikyuu Rondo ~HISTOIRE DE DESTIN~",
    "characters": 9,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00227"
+   ]
   },
   "v10016": {
    "title": "Tokeijikake no Ley Line -Tasogaredoki no Kyoukaisen-",
@@ -3160,7 +3879,9 @@
    "title": "Omertà Code:Tycoon",
    "characters": 18,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00789"
+   ]
   },
   "v10288": {
    "title": "LOVELY×CATION2",
@@ -3180,7 +3901,9 @@
    "title": "LOVELY QUEST",
    "characters": 12,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00336"
+   ]
   },
   "v10383": {
    "title": "Hakuouki Reimeiroku",
@@ -3194,7 +3917,9 @@
    "title": "Sangoku Hime 2 ~Tenchi Tairan Ransei ni Kirameku Arata na Haryuu~",
    "characters": 81,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00189"
+   ]
   },
   "v10561": {
    "title": "Shin Kamaitachi no Yoru: 11ninme no Suspect",
@@ -3383,7 +4108,9 @@
    "vndb_ids": [
     "PCSG00506"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00506"
+   ]
   },
   "v11301": {
    "title": "ALIA's CARNIVAL!",
@@ -3433,7 +4160,9 @@
    "vndb_ids": [
     "PCSG00553"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00553"
+   ]
   },
   "v11636": {
    "title": "STORM LOVER 2nd",
@@ -3441,7 +4170,9 @@
    "vndb_ids": [
     "PCSG00736"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00736"
+   ]
   },
   "v11639": {
    "title": "Geten no Hana",
@@ -3475,13 +4206,17 @@
    "title": "Tokyo Onmyouji",
    "characters": 15,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00631"
+   ]
   },
   "v11856": {
    "title": "Fureraba ~Friend to Lover~",
    "characters": 18,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00519"
+   ]
   },
   "v11865": {
    "title": "Futagoza no Paradox",
@@ -3519,7 +4254,9 @@
    "title": "Hyakka Ryouran Elixir",
    "characters": 6,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00518"
+   ]
   },
   "v12096": {
    "title": "Sanzen Sekai Yuugi ~MultiUniverse Myself~",
@@ -3573,7 +4310,9 @@
    "title": "Otome Riron to Sono Shuuhen -Ecole de Paris-",
    "characters": 28,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00942"
+   ]
   },
   "v12260": {
    "title": "ChuSinGura 46+1",
@@ -3595,7 +4334,9 @@
    "title": "Monobeno -Happy End-",
    "characters": 21,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00378"
+   ]
   },
   "v12402": {
    "title": "Fata Morgana no Yakata",
@@ -3638,7 +4379,9 @@
    "title": "Soushuu Senshinkan Gakuen: Hachimyoujin",
    "characters": 25,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00396"
+   ]
   },
   "v12476": {
    "title": "Karumaruka * Circle",
@@ -3752,7 +4495,9 @@
    "title": "AstralAir no Shiroki Towa",
    "characters": 26,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00901"
+   ]
   },
   "v13059": {
    "title": "XBLAZE CODE:EMBRYO",
@@ -3794,7 +4539,9 @@
    "vndb_ids": [
     "PCSG00654"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00654"
+   ]
   },
   "v13152": {
    "title": "Rozen Maiden: Wechseln Sie Welt ab",
@@ -3808,7 +4555,9 @@
    "title": "Galtia",
    "characters": 15,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01151"
+   ]
   },
   "v13325": {
    "title": "Clover Day's",
@@ -3816,7 +4565,9 @@
    "vndb_ids": [
     "PCSG00716"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00716"
+   ]
   },
   "v13631": {
    "title": "Hello Lady!",
@@ -3870,7 +4621,9 @@
    "vndb_ids": [
     "PCSG00902"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00902"
+   ]
   },
   "v13865": {
    "title": "IS<Infinite Stratos>2 Ignition Hearts",
@@ -3926,7 +4679,9 @@
    "vndb_ids": [
     "PCSG01120"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01120"
+   ]
   },
   "v14018": {
    "title": "CHAOS;CHILD",
@@ -3967,7 +4722,9 @@
    "title": "FLOWERS -Le volume sur printemps-",
    "characters": 8,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00459"
+   ]
   },
   "v14345": {
    "title": "Tokimeki Restaurant ☆☆☆",
@@ -4029,7 +4786,9 @@
    "vndb_ids": [
     "PCSG00666"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00666"
+   ]
   },
   "v14761": {
    "title": "Harvest OverRay",
@@ -4144,7 +4903,9 @@
    "vndb_ids": [
     "PCSG00911"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00911"
+   ]
   },
   "v15080": {
    "title": "Hatsuru Koto Naki Mirai Yori",
@@ -4242,7 +5003,9 @@
    "vndb_ids": [
     "PCSG00860"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00860"
+   ]
   },
   "v15499": {
    "title": "Nisekoi: Yomeiri!?",
@@ -4258,7 +5021,9 @@
    "vndb_ids": [
     "PCSG00919"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00919"
+   ]
   },
   "v15577": {
    "title": "ROOT∞REXX",
@@ -4338,7 +5103,9 @@
    "vndb_ids": [
     "PCSG00869"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00869"
+   ]
   },
   "v16049": {
    "title": "Possession Magenta",
@@ -4401,7 +5168,9 @@
    "vndb_ids": [
     "PCSG01104"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01104"
+   ]
   },
   "v16134": {
    "title": "Silverio Vendetta",
@@ -4439,7 +5208,9 @@
    "title": "Puramai Wars",
    "characters": 13,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00904"
+   ]
   },
   "v16366": {
    "title": "Michinoku Hitou Koimonogatari Kai",
@@ -4459,7 +5230,9 @@
    "title": "Taishou Mebiusline Teito Bibouroku",
    "characters": 11,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00968"
+   ]
   },
   "v16459": {
    "title": "Traveling Stars",
@@ -4579,7 +5352,9 @@
    "vndb_ids": [
     "PCSG01064"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01064"
+   ]
   },
   "v16702": {
    "title": "Mikagura Shoujo Tanteidan",
@@ -5003,7 +5778,9 @@
    "vndb_ids": [
     "PCSG01167"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01167"
+   ]
   },
   "v18295": {
    "title": "Tsumikui ~Sen no Noroi, Sen no Inori~",
@@ -5011,7 +5788,9 @@
    "vndb_ids": [
     "PCSG01019"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01019"
+   ]
   },
   "v18303": {
    "title": "Norn9 ~Norn + Nonette~ Act Tune",
@@ -5152,7 +5931,9 @@
    "vndb_ids": [
     "PCSG01063"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01063"
+   ]
   },
   "v18642": {
    "title": "Getsuei Gakuen -kou-",
@@ -5397,7 +6178,9 @@
    "title": "Haruoto Alice * Gram",
    "characters": 15,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01252"
+   ]
   },
   "v19140": {
    "title": "Oumagatoki ~Kakuriyo no Enishi~",
@@ -5433,7 +6216,9 @@
    "title": "Silverio Trinity",
    "characters": 19,
    "vndb_ids": [],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01259"
+   ]
   },
   "v19238": {
    "title": "Persona 4 Dancing All Night",
@@ -5730,7 +6515,9 @@
    "vndb_ids": [
     "PCSG00861"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00861"
+   ]
   },
   "v20071": {
    "title": "DYNAMIC CHORD feat.KYOHSO",
@@ -5738,7 +6525,9 @@
    "vndb_ids": [
     "PCSG00862"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00862"
+   ]
   },
   "v20072": {
    "title": "DYNAMIC CHORD feat.apple-polisher",
@@ -5756,7 +6545,9 @@
    "vndb_ids": [
     "PCSG00912"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG00912"
+   ]
   },
   "v20148": {
    "title": "Ninki Seiyuu no Tsukurikata",
@@ -5926,7 +6717,9 @@
    "vndb_ids": [
     "PCSG01065"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01065"
+   ]
   },
   "v20975": {
    "title": "Hatsujou Sprinkle",
@@ -6092,7 +6885,9 @@
    "vndb_ids": [
     "PCSG01162"
    ],
-   "vita3k_ids": []
+   "vita3k_ids": [
+    "PCSG01162"
+   ]
   },
   "v21852": {
    "title": "Kin'iro Loveriche",
