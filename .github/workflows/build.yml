@@ -26,7 +26,11 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Refresh VNDB snapshot (manual only)
         if: github.event_name == 'workflow_dispatch' && inputs.refresh
-        run: python -m vndb_names fetch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -m vndb_names fetch
+          python -m vndb_names fetch-ids
       - name: Build offline
         run: python -m vndb_names build
       - uses: actions/upload-artifact@v4
@@ -35,4 +39,5 @@ jobs:
           path: |
             dist/
             data/snapshot.json
+            data/title-ids.json
           if-no-files-found: error
