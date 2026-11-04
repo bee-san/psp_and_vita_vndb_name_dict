@@ -1,5 +1,7 @@
 # VNDB Names for Yomitan — PSP & PS Vita
 
+[![Discord](https://img.shields.io/discord/754001738184392704?logo=discord&label=Discord)](https://discord.skerritt.blog)
+
 A compact Japanese character-name dictionary for visual novels released on
 **PlayStation Portable or PlayStation Vita**. Inspired by
 [kaanium/VNDB-Names-for-Yomitan](https://github.com/kaanium/VNDB-Names-for-Yomitan).
